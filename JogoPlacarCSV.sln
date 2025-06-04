@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoPlacarCSV", "JogoPlacarCSV.csproj", "{F53D2A8C-2F25-5925-F855-6FA6F7D3D61E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F53D2A8C-2F25-5925-F855-6FA6F7D3D61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53D2A8C-2F25-5925-F855-6FA6F7D3D61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53D2A8C-2F25-5925-F855-6FA6F7D3D61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53D2A8C-2F25-5925-F855-6FA6F7D3D61E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {269D6AC6-4F6E-4BCD-B83E-7810EF507E30}
+	EndGlobalSection
+EndGlobal
