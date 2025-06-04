@@ -60,7 +60,7 @@ class Program
             }
         }
 
-        Console.WriteLine($"Fim de jogo! você fez {pontuacao} pontos.");
+        Console.WriteLine($"Fim de jogo! você fez {pontuacao} pontos.\n");
 
         var jogadorExistente = jogadores.FirstOrDefault(j => j.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
 
@@ -69,17 +69,17 @@ class Program
             if (pontuacao > jogadorExistente.Pontuacao)
             {
                 jogadorExistente.Pontuacao = pontuacao;
-                Console.WriteLine("Você bateu sua pontuação anterior!");
+                Console.WriteLine("Você bateu sua pontuação anterior!\n");
             }
             else
             {
-                Console.WriteLine($"Sua pontuação anterior ({jogadorExistente.Pontuacao}) foi melhor ou igual.");
+                Console.WriteLine($"Sua pontuação anterior ({jogadorExistente.Pontuacao}) foi melhor ou igual.\n");
             }
         }
         else
         {
             jogadores.Add(new Jogador { Nome = nome, Pontuacao = pontuacao });
-            Console.WriteLine("Novo jogador registrado!");
+            Console.WriteLine("Novo jogador registrado!\n");
         }
 
         // Salvar placar
@@ -89,6 +89,6 @@ class Program
             csv.WriteRecords(jogadores);
         }
 
-        Console.WriteLine("Pontuação salva em 'tabuada_scores.csv'");
+        Console.WriteLine("Pontuação salva em 'tabuada_scores.csv'\n");
     }
 }
